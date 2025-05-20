@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-white: #ffffff;
+  --secondary-grey: #c0c0c0c0;
+  --blue-button: #167bf7;
+  --background: #00030c;
+  --main-font: "Inter", sans-serif;
+}
+body {
+  background: var(--background);
+  color: var(--primary-white);
+  font-family: var(--main-font);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.principal {
+  background: no-repeat url("./img/Background.png");
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.container-button {
+  background: var(--blue-button);
+  border-radius: 0.3125rem;
+  padding: 1em;
+  color: var(--primary-white);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1em;
+}
+.secondary-button {
+  background: transparent;
+  border: 2px solid var(--primary-white);
+}
+.container-notice {
+  font-size: 0.75rem;
+  color: var(--secondary-grey);
+}
+.container-titulo {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.container-image {
+  margin: 1em 0 2em 0;
+}
+.container-box {
+  margin: 0 6em;
+}
+.img-secondary {
+  width: 80%;
+}
+.secondary {
+  align-items: center;
+  margin: 0 10em;
+}
+.title-description {
+  font-weight: 700;
+  font-size: 3em;
+  color: var(--primary-white);
+  margin-bottom: 0.1em;
+}
+.text-description {
+  color: var(--secondary-grey);
+}
+.button-secondary {
+  display: inline-block;
+  margin-top: 1em;
+}
+.container-description {
+  padding: 2em;
+}
+.device-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+.devices {
+  text-align: center;
+}
+.devices-title {
+  font-size: 3em;
+  color: var(--primary-white);
+}
+.item-list {
+  font-size: 2em;
+  color: var(--primary-white);
+}

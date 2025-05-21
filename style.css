@@ -96,3 +96,33 @@ body {
   font-size: 2em;
   color: var(--primary-white);
 }
+
+.baseboard {
+  text-align: center;
+  margin: 9.0625em 7.5em;
+}
+
+.baseboard-logo {
+  margin-bottom: 2.5em;
+}
+
+.baseboard-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.link-list a {
+  text-decoration: none;
+  color: var(--primary-white);
+}
+
+.link-list a:hover {
+  color: var(--blue-button);
+}
+
+.baseboard-text {
+  margin-bottom: 2.5em;
+}
